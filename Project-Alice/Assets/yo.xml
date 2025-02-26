@@ -1,0 +1,18 @@
+<UI>
+    <!-- Header Section -->
+    <Header text="Project Alice Launcher" style="LargeBold"/>
+
+    <!-- Separator -->
+    <Separator/>
+
+    <!-- Buttons Section -->
+    <Button label="Set API to DirectX" action="SetDirectX" style="Primary"/>
+    <Button label="Set API to OpenGL" action="SetOpenGL" style="Primary"/>
+    
+    <!-- Additional buttons for other settings -->
+    <Button label="Settings" action="OpenSettings" style="Secondary"/>
+    <Button label="Exit" action="Exit" style="Danger"/>
+
+    <!-- Footer Section -->
+    <Footer text="Powered by Project Alice" style="SmallItalic"/>
+</UI>

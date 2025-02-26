@@ -28,12 +28,12 @@ void RenderInterface()
 
 		if (DataManager::get_api() == std::to_string(DIRECTX11_API))
 		{
-			AliceUI::FormattedText<std::string>("Current API : ", "DirectX11");
+			AliceUI::FormattedText<std::string>("Current API : %s", "DirectX11");
 			AliceUI::FormattedText<float>("Elapsed Time : %.1f", dx11_api_window.GetElapsedTime());
 		}
 		else if (DataManager::get_api() == std::to_string(OPENGL_API))
 		{
-			AliceUI::FormattedText<std::string>("Current API : ", "OpenGL 3.3");
+			AliceUI::FormattedText<std::string>("Current API : %s", "OpenGL 3.3");
 			AliceUI::FormattedText<float>("Elapsed Time : %.1f", opengl_api_window.GetElapsedTime());
 		}
 
